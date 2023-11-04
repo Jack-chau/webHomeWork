@@ -23,10 +23,11 @@
                     <a href="#"><button class="btn">Search</button></a>
                 </li>
             </ul>
-            <img src="./menu-btn.png" class="menu-btn">
         </div>
+        <img src="./menu-btn.png" class="menu-btn">
     </nav>
 
+    <!-- Header -->
     <header>
         <div class="header-content">
             <h1>One World With Love and Peace</h1>
@@ -34,9 +35,33 @@
         </div>
     </header>
 
+    <!-- Sharing -->
+    <section class="sharing">
+        <div class="title">
+            <h1>They Are Innocent And They Are Our Future!!</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <iframe width="900" height="580" src="https://www.youtube.com/embed/c4CnoqvI_bQ" title="A 10-year-old Palestinian girl breaks down while talking to MEE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <h1>I don't know what to do!</h1>
+                <p>A 10-year-old Palestinian girl breaks down after Israeli air strikes destroyed her neighbour's house, killing 8 children and 2 women.</p>
+                <a href="https://www.middleeasteye.net/" class="ctn">Learn more</a>
+            </div>
+            <div class="col">
+                <iframe width="900" height="580" src="https://www.youtube.com/embed/y2fTGnCxBWU" title="This will touch your heart! African children singing worship song, Siryelabila by Twina Herbert" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                <h1>Siryelabila (I Will Never Forget)</h1>
+                <p>A kid from Africa singing a worship song to thank God for everything, and they will Never Forget!</p>
+                <a href="https://www.middleeasteye.net/" class="ctn">Learn more</a>
+            </div>
+        </div>
+    </section>
+
     <script>
-        const menuBtn = document.querySelector('.meni-btn')
-        const navlinks = document.querySelector('.nav-links')
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-list')
         menuBtn.addEventListener('click',()=>{
             navlinks.classList.toggle('mobile-menu')
         })
