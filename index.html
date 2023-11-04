@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UtF-8">
+    <title>OnePeace</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <div class="icon">
+            <img class="PaeceImg" src="./Peace.png">
+            <h1 class="logo">OnePeace</h1>
+        </div>
+        <div class="nav-links">
+            <ul class="nav-list">
+                <li class="Home"><a href="./index.html">Home</a></li>
+                <li class="About"><a href="#">About</a></li>
+                <li class="Donation"><a href="#">Donation</a></li>
+                <li class="Emergency"><a href="./Emergency.html">Emergency</a></li>
+                <li class="Searching">
+                    <input class="srch" type="search" name="" placeholder="Type To Text">
+                    <a href="#"><button class="btn">Search</button></a>
+                </li>
+            </ul>
+            <img src="./menu-btn.png" class="menu-btn">
+        </div>
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h1>One World With Love and Peace</h1>
+            <h2>EVERYDAY IS A WONDERFUL GIFT</h2>
+        </div>
+    </header>
+
+    <script>
+        const menuBtn = document.querySelector('.meni-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>

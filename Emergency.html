@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UtF-8">
+    <title>OnePeace</title>
+    <link rel="stylesheet" href="./Emergency.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <div class="icon">
+            <img class="PaeceImg" src="./Peace.png">
+            <h1 class="logo">OnePeace</h1>
+        </div>
+        <div class="nav-links">
+            <ul class="nav-list">
+                <li class="Home"><a href="./index.html">Home</a></li>
+                <li class="About"><a href="#">About</a></li>
+                <li class="Donation"><a href="#">Donation</a></li>
+                <li class="Emergency"><a href="./Emergency.html">Emergency</a></li>
+                <li class="Searching">
+                    <input class="srch" type="search" name="" placeholder="Type To Text">
+                    <a href="#"><button class="btn">Search</button></a>
+                </li>
+            </ul>
+            <img src="./menu-btn.png" class="menu-btn">
+        </div>
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <br>
+            <h1 class="emergency">Emergency</h1>
+            <br>
+            <p>A year after the Russian invasion of Ukraine, a third of the country’s 
+                population has been forced to flee their homes. Almost 8 million refugees have fled Ukraine, 
+                and almost 6 million people have been displaced within the country’s borders. 
+                <br>
+                UNHCR has been on the ground since the beginning, providing emergency shelter, 
+                relief items, legal and psychological support to those forced to flee.
+                Continued attacks in the country mean that people are losing their homes and even their loved ones every day. 
+                We will stay and continue working in Ukraine and neighbouring countries as long as necessary to help those in need. </p>
+            <br>
+            <h1 class="donateHeader">But we cannot do it without you. </h1>
+            <br>
+            <p>With no end to the war in sight, we rely on your generosity to continue providing essential, 
+                life-saving relief to people who have lost everything.  
+                Please donate now.  </p>
+            <button class="SupportUsBtn"><a href="#">Support Us</a></button>
+        </div>
+    </div>
+    </header>
+
+    <script>
+        const menuBtn = document.querySelector('.meni-btn')
+        const navlinks = document.querySelector('.nav-links')
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
