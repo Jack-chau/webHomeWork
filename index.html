@@ -3,28 +3,28 @@
 <head>
     <meta charset="UtF-8">
     <title>OnePeace</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--Navbar-->
     <nav class="navbar">
         <div class="icon">
-            <img class="PaeceImg" src="./Peace.png">
+            <img class="PaeceImg" src="Peace.png">
             <h1 class="logo">OnePeace</h1>
         </div>
         <div class="nav-links">
             <ul class="nav-list">
-                <li class="Home"><a href="./index.html">Home</a></li>
-                <li class="About"><a href="#">About</a></li>
+                <li class="Home"><a href="index.html">Home</a></li>
+                <li class="About"><a href="AboutUs.html">About Us</a></li>
+                <li class="Emergency"><a href="Emergency.html">Emergency</a></li>
                 <li class="Donation"><a href="#">Donation</a></li>
-                <li class="Emergency"><a href="./Emergency.html">Emergency</a></li>
                 <li class="Searching">
                     <input class="srch" type="search" name="" placeholder="Type To Text">
                     <a href="#"><button class="btn">Search</button></a>
                 </li>
             </ul>
         </div>
-        <img src="./menu-btn.png" class="menu-btn">
+        <img src="menu-btn.png" class="menu-btn">
     </nav>
 
     <!-- Header -->
@@ -37,27 +37,59 @@
 
     <!-- Sharing -->
     <section class="sharing">
-        <div class="title">
-            <h1>They Are Innocent And They Are Our Future!!</h1>
-            <div class="line"></div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <iframe width="900" height="580" src="https://www.youtube.com/embed/c4CnoqvI_bQ" title="A 10-year-old Palestinian girl breaks down while talking to MEE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-                <h1>I don't know what to do!</h1>
-                <p>A 10-year-old Palestinian girl breaks down after Israeli air strikes destroyed her neighbour's house, killing 8 children and 2 women.</p>
-                <a href="https://www.middleeasteye.net/" class="ctn">Learn more</a>
+        <div class="container">
+            <div class="title">
+                <h1>They Are Innocent!!</h1>
+                <div class="line"></div>
             </div>
-            <div class="col">
-                <iframe width="900" height="580" src="https://www.youtube.com/embed/y2fTGnCxBWU" title="This will touch your heart! African children singing worship song, Siryelabila by Twina Herbert" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div class="row">
+                <div class="col">
+                    <iframe
+                        class="iframe"
+                        src="https://www.youtube.com/embed/c4CnoqvI_bQ" 
+                        title="A 10-year-old Palestinian girl breaks down while talking to MEE" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
 
-                <h1>Siryelabila (I Will Never Forget)</h1>
-                <p>A kid from Africa singing a worship song to thank God for everything, and they will Never Forget!</p>
-                <a href="https://www.middleeasteye.net/" class="ctn">Learn more</a>
+                    <h1>I don't know what to do!</h1>
+                    <p>A 10-year-old Palestinian girl breaks down after Israeli air strikes destroyed her neighbour's house, killing 8 children and 2 women.</p>
+                    <a 
+                        href="https://www.middleeasteye.net/" 
+                        class="ctn">
+                        Learn more
+                    </a>
+                </div>
+                <div class="col">
+                    <iframe 
+                        class="iframe"
+                        src="https://www.youtube.com/embed/y2fTGnCxBWU" 
+                        title="This will touch your heart! African children singing worship song, Siryelabila by Twina Herbert" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
+                    <h1>Siryelabila (I Will Never Forget)</h1>
+                    <p>Children from Africa singing a worship song to thank God for everything, and they will Never Forget!</p>
+                    <a 
+                        href="https://yahwehchildrenministries.org/" 
+                        class="ctn">
+                        Learn more
+                    </a>
+                </div>
             </div>
         </div>
     </section>
+
+    <section class="footer">
+        <div>
+            <p>A poor and worthless developer who love programming</p>
+            <p>Copyright © https://github.com/Jack-chau</p>
+        </div>
+        <img src="myGitHub.png" class="myGitHub">
+    </section>
+
 
     <script>
         const menuBtn = document.querySelector('.menu-btn')

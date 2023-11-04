@@ -8,15 +8,13 @@
 body, html {
     overflow-x: hidden;
 }
-
-/* no underline in a tag*/
 a{
     text-decoration: none;
 }
-/*For the background*/
+
 header{
-    width: 100vw ;
-    height: 100vh ;
+    width: 100vw;
+    height: 100vh;
     background:
     /*Make Background Dim*/
         linear-gradient(
@@ -24,42 +22,44 @@ header{
             rgba( 0,0,0,0.6 ) ,
             rgba( 0,0,0,0.8 )
             ) ,
-        url( AfricaChildren.jpg ) ;
-    background-position: center ;
-    /*Full image coverage(background)*/
-    background-size: cover ;
-    display: flex ;
-    align-items: center ;
-    justify-content: center ;
+        url( FOU_section4-img.jpg ) ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
 }
 
-/*For the content*/
-.header-content {
+.line{
+    width: 150px;
+    height: 2px;
+    background: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.AboutUs-Content{
+    width: 60%;
+    padding:50px;
+    color: whitesmoke ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     margin-bottom: 150px ;
-    color: white ;
-    text-align: center ;
+    text-align: left ;
 }
 
-/*First line*/
-.header-content h1{
-    font-family: cursive ;
-    font-size: 4vmin ;
-    margin-top: 50px ;
-    background: -webkit-linear-gradient(0deg, #fca34a 20%, #48abe0 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-/*Second Line*/
-.header-content h2{
-    font-family: cursive ;
-    font-size: 2vmin ;
-    margin-top: 30px ;
-    margin-bottom: 30px ;
-    background: -webkit-linear-gradient(0deg, #fca34a 20%, #48abe0 80%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.AboutUs-Content h1{
+    font-size: 7vmin;
+    margin: 50px;
 }
 
+.AboutUs-Content p{
+    color: rgb(221,221,221)
+}
+
+/* no underline in a tag*/
+a{
+    text-decoration: none;
+}
 /*Navbar*/
 /*For the header*/
 .navbar{
@@ -154,72 +154,6 @@ ul li:hover{
 
 }
 
-/* Sharing */
-section{
-    width: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 80px auto;
-}
-
-.title{
-    text-align: center;
-    font-size: 4vmin;
-    color: #f63a3a;
-}
-.line{
-    width: 150px;
-    height: 4px;
-    background: #fc036b;
-    margin: 10px auto;
-    border-radius: 5px;
-}
-.row{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    background: cyan;
-}
-
-.row .col {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.sharing .row{
-    margin-top : 50px;
-}
-
-
-.sharing h1{
-    font-size: 3min;
-    color: #484872;
-    margin: 20px auto;
-}
-
-iframe{
-    width: 900px;
-    height: 600px;
-    padding-left: 20px;
-}
-
-.sharing p{
-    color: #7c7c7c;
-    padding: 0px 40px;
-    font-size: 30px ;
-}
-
-.sharing .ctn {
-    margin-top: 30px;
-    padding: 8px 15px;
-    background: #fc036b;
-    border-radius: 30px;
-    color: whitesmoke;
-}
-
 .footer{
     width: 100%;
     min-height: 100px;
@@ -241,7 +175,12 @@ iframe{
     padding-left: 50px;
 }
 
-/*Make it responsive when the shrink*/
+section{
+    width: 100%;
+    height: 80vh;
+    background-image: url('./FOU_section4-img');
+}
+
 @media only screen and (max-width:850px){
     .navbar{
         padding: 0;
@@ -267,7 +206,7 @@ iframe{
     }
     .nav-list li{
         margin: 30px auto;
-}
+    }
     .menu-btn{
         display: block;
     }
@@ -275,20 +214,4 @@ iframe{
         margin-top: 0px;
         border-bottom-right-radius:30%;
     }
-
-    /* Sharing */
-    .row{
-        flex-direction: column;
-    }
-    .row{
-        margin: 20px auto;
-    }
-    .col iframe{
-        max-width: 90%;
-    }
-    .iframe{
-        width: 1000px;
-        height: 300px;
-    }
-
 }
