@@ -27,27 +27,28 @@ header{
 }
 
 .header-content {
-    margin-bottom: 150px ;
+    margin-bottom: 1% ;
     text-align: left ;
-    width: 1100px ;
-    padding-top: 150px;
+    width: 60% ;
+    padding-top: 3%;
     color: rgb(243, 226, 128);
-    font-size: 25px ;
+    font-size: 150% ;
+    text-align: justify;
 }
 /*Navbar*/
 
 .navbar{
     display: flex;
     position: absolute ;
-    top: 0 ;
-    left: 0 ;
+    top: 0% ;
+    left: 0% ;
     width: 100% ;
     justify-content: space-around;
-    padding: 20px ;
+    padding: 1% ;
     font-family: cursive ;
 }
 .nav-links{
-    padding-top: 30px;
+    padding-top: 2%;
 }
 
 .navbar .logo{
@@ -65,7 +66,7 @@ ul{
 
 ul li{
     margin-left: 70px ;
-    font-size: 30px ;
+    font-size: 180% ;
     list-style:armenian ;
     color:gray ;
 }
@@ -84,7 +85,7 @@ ul li:hover{
 
 .srch{
     font-family: 'Arial' ;
-    width: 200px ;
+    width: 60% ;
     height: 40px ;
     background:  transparent;
     border: 1px solid rgb(196, 216, 222) ;
@@ -98,13 +99,13 @@ ul li:hover{
 
 .btn{
     float: left;
-    width: 100px ;
+    width: 40% ;
     height: 40px ;
     background: orange ;
     border: 2px solid orange ;
     color: white ;
     font-family: cursive ;
-    font-size: 15px ;
+    font-size: 65% ;
     border-top-right-radius: 5px ;
     border-bottom-right-radius: 5px ;
 }
@@ -118,18 +119,24 @@ ul li:hover{
 
 .menu-btn{
     position: absolute;
-    top: 40px;
-    right: 80px;
-    width: 40px;
+    top: 250%;
+    right: 5%;
+    width: 8%;
     cursor: pointer;
     display: none;
 
 }
-
+section{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px auto;
+}
 .footer{
     width: 100%;
-    min-height: 100px;
-    padding: 20px 80px;
+    min-height: 100%;
+    padding: 5% 5%;
     margin: 0;
     background: #484872;
     text-align: center;
@@ -142,20 +149,20 @@ ul li:hover{
 }
 
 .footer .myGitHub{
-    width: 200px;
-    height: 200px;
-    padding-left: 50px;
+    width: 15%;
+    height: 8%;
+    padding-left: 8%;
 }
 
 .emergency{
     color: rgb(235, 66, 66);
-    font-size: 35px;
+    font-size: 350%;
     font-family: cursive ;
 }
 
 .donateHeader{
     color: rgb(232, 67, 180);
-    font-size: 35px;
+    font-size: 235%;
     font-family: cursive ;
 }
 
@@ -164,7 +171,7 @@ ul li:hover{
     height: 50px ;
     background: orange;
     border: none ;
-    margin-top: 25px;
+    margin-top: 2%;
     border-radius: 20px ;
     cursor: pointer ;
     display: flex ;
@@ -175,7 +182,7 @@ ul li:hover{
 .header-content .SupportUsBtn a{
     text-decoration: none ;
     color: black ;
-    font-size: 30px;
+    font-size: 200%;
     font-family: cursive ;
     font-style:italic ;
     font-weight: bold;

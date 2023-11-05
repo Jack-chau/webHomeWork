@@ -201,8 +201,8 @@ section{
 }
 
 iframe{
-    width: 900px;
-    height: 600px;
+    width: 700px;
+    height: 500px;
     padding-left: 20px;
 }
 
@@ -210,6 +210,7 @@ iframe{
     color: #7c7c7c;
     padding: 0px 40px;
     font-size: 30px ;
+    text-align:justify;
 }
 
 .sharing .ctn {
