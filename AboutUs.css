@@ -210,20 +210,24 @@ section{
     font-size:6vmin;
 }
 
+
+/*PTSD*/
 .ptsd{
-    width: 100vw;
+    width: 100%;
     height: 120vh;
-    background: url('ImageForArticle_7061_1662009165227664.webp');
     background-repeat: no-repeat;
     margin:0;
+    background-position: center;
+    background-size: cover;
 }
 
 .ptsd-content{
-    color: rgb(230, 115, 205);
+    color: rgb(201, 51, 181);
     display: flex;
     font-size:4vmin;
     flex-direction: column;
     width:180vh;
+    padding-left: 150px;
 }
 
 .ptsd-content p{
@@ -243,10 +247,59 @@ section{
     height: 10vmin;
 }
 
+.drawing-title{
+    display: flex;
+    align-items: center;
+    font-size: 5vmin;
+    display: flex;
+    justify-content: center;
+    text-align:justify;
+    margin-bottom: 3vmin;
+    color: rgb(201, 51, 181);
+    padding-right: 180px;
+}
+
+.ptsd-drawing{
+    height: 60vmin;
+    width: 60vmin;
+    padding-right: 180px;
+}
+
 /*Support items*/
 
+.service-items{
+    width: 100%;
+    height: 120vh;
+    margin:0;
+    background-color: #d5a779;
+}
 
+.service-title{
+    width: 30vmin;
+    font-size: 3vmin;
+    color: rgb(201, 51, 181);
+    padding-left: 50px;
+    padding-bottom: 350px;
+}
 
+.service-content{
+    padding-top: 5vmin;
+    font-size:2vmin;
+
+}
+
+.service-image{
+    width: 90vmin;
+    height: 100vmin;
+    padding-right: 100px;
+    padding-left: 50vmin;
+    padding-top: 50vmin;
+}
+
+.service-image img{
+    width:30vmin;
+    height:30vmin;
+}
 
 
 
