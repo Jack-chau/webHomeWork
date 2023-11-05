@@ -35,7 +35,7 @@ header{
 
 /*For the content*/
 .header-content {
-    margin-bottom: 150px ;
+    margin-bottom: 8% ;
     color: white ;
     text-align: center ;
 }
@@ -44,7 +44,7 @@ header{
 .header-content h1{
     font-family: cursive ;
     font-size: 4vmin ;
-    margin-top: 50px ;
+    margin-top: 20% ;
     background: -webkit-linear-gradient(0deg, #fca34a 20%, #48abe0 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -53,8 +53,8 @@ header{
 .header-content h2{
     font-family: cursive ;
     font-size: 2vmin ;
-    margin-top: 30px ;
-    margin-bottom: 30px ;
+    margin-top: 3%;
+    margin-bottom: 10% ;
     background: -webkit-linear-gradient(0deg, #fca34a 20%, #48abe0 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -179,7 +179,6 @@ section{
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: space-between;
     background: cyan;
 }
 
@@ -193,29 +192,33 @@ section{
     margin-top : 50px;
 }
 
+iframe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vmin;
+    height: 50vmin;
+    margin: 1vmin;
+}
 
 .sharing h1{
-    font-size: 3min;
+    font-size: 3vmin;
     color: #484872;
     margin: 20px auto;
 }
 
-iframe{
-    width: 700px;
-    height: 500px;
-    padding-left: 20px;
-}
 
 .sharing p{
     color: #7c7c7c;
     padding: 0px 40px;
-    font-size: 30px ;
+    font-size: 3vmin ;
     text-align:justify;
 }
 
 .sharing .ctn {
-    margin-top: 30px;
-    padding: 8px 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 8px 20px;
     background: #fc036b;
     border-radius: 30px;
     color: whitesmoke;
@@ -286,10 +289,6 @@ iframe{
     }
     .col iframe{
         max-width: 90%;
-    }
-    .iframe{
-        width: 1000px;
-        height: 300px;
     }
 
 }

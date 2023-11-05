@@ -155,7 +155,7 @@ section{
 
 .AboutUs-Content h1{
     font-size: 6vmin;
-    margin: 3%;
+    margin: 10px;
 }
 
 
@@ -172,17 +172,17 @@ section{
 .AboutUs img{
     position: absolute;
     float: left;
-    width: 30%;
-    height: 55%;
-    right: 4%;
-    top: 35%;
-    justify-content: center;
+    width: 60vmin;
+    height: 50vmin;
+    right: 4vmin;
+    top: 30vmin;
     border-radius: 50% 20% / 10% 40%;
     -webkit-animation:spin 25s linear;
     -moz-animation:spin 25s linear;
     animation:spin 25s linear infinite;
     /*Never Scale the image larger than its origin*/
     max-width: 100%;
+    padding-left: 10%;
 }
 
     @-moz-keyframes spin { 
@@ -197,6 +197,22 @@ section{
             transform:rotate(40deg); 
         } 
     }
+
+
+.bankpage{
+    width: 100vw;
+    height: 150vh;
+    background-color: #000000;
+    margin:0;
+}
+
+.bankpage h1{
+    color:aliceblue;
+    font-size: 5vmin;
+    text-align: justify;
+}
+
+
 
 .footer{
     width: 100%;
@@ -217,12 +233,6 @@ section{
     width: 200px;
     height: 200px;
     padding-left: 50px;
-}
-
-section{
-    width: 100%;
-    height: 80vh;
-    background-image: url('./FOU_section4-img');
 }
 
 @media only screen and (max-width:850px){
