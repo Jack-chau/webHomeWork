@@ -130,7 +130,7 @@ ul li:hover{
 
 /*About Us content*/
 section{
-    width: 80%;
+    width: 100vmin;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -198,22 +198,65 @@ section{
         } 
     }
 
-
 .bankpage{
     width: 100vw;
     height: 150vh;
-    background-color: #000000;
+    background-color: black;
     margin:0;
 }
 
 .bankpage h1{
-    color:aliceblue;
-    font-size: 5vmin;
-    text-align: justify;
+    color:#fc036b;
+    font-size:6vmin;
 }
 
+.ptsd{
+    width: 100vw;
+    height: 120vh;
+    background: url('ImageForArticle_7061_1662009165227664.webp');
+    background-repeat: no-repeat;
+    margin:0;
+}
+
+.ptsd-content{
+    color: rgb(230, 115, 205);
+    display: flex;
+    font-size:4vmin;
+    flex-direction: column;
+    width:180vh;
+}
+
+.ptsd-content p{
+    padding-top: 5vmin;
+    display: flex;
+    width: 100vmin;
+    font-size:5vmin;
+    flex-direction: column;
+    text-align:justify;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.ptsd-content .video{
+    width:45vmin;
+    padding-bottom: 8vmin;
+    height: 10vmin;
+}
+
+/*Support items*/
 
 
+
+
+
+
+
+
+
+
+
+
+/*footer*/
 .footer{
     width: 100%;
     min-height: 100px;
