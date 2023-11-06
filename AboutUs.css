@@ -224,7 +224,7 @@ section{
 .ptsd-content{
     color: rgb(201, 51, 181);
     display: flex;
-    font-size:4vmin;
+    font-size:3vmin;
     flex-direction: column;
     width:180vh;
     padding-left: 150px;
@@ -234,7 +234,7 @@ section{
     padding-top: 5vmin;
     display: flex;
     width: 100vmin;
-    font-size:5vmin;
+    font-size:4vmin;
     flex-direction: column;
     text-align:justify;
     font-weight: bold;
@@ -257,42 +257,49 @@ section{
     margin-bottom: 3vmin;
     color: rgb(201, 51, 181);
     padding-right: 180px;
+    margin-left: 70px;
 }
 
 .ptsd-drawing{
     height: 60vmin;
     width: 60vmin;
     padding-right: 180px;
+    margin-left:70px;
 }
 
 /*Support items*/
 
 .service-items{
     width: 100%;
-    height: 120vh;
+    height: 140vh;
     margin:0;
     background-color: #d5a779;
 }
 
 .service-title{
-    width: 30vmin;
+    padding-top:50vmin;
+    width: 100vmin;
     font-size: 3vmin;
     color: rgb(201, 51, 181);
     padding-left: 50px;
     padding-bottom: 350px;
 }
-
-.service-content{
-    padding-top: 5vmin;
-    font-size:2vmin;
-
+.service-title h1{
+    padding-left: 10px;
 }
+
+.service-title ol{
+    margin-top:5vmin;
+    padding-left: 6vmin;
+    font-size: 5vmin;
+}
+
 
 .service-image{
     width: 90vmin;
     height: 100vmin;
     padding-right: 100px;
-    padding-left: 50vmin;
+    padding-left: 20vmin;
     padding-top: 50vmin;
 }
 
