@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UtF-8">
+    <title>OnePeace</title>
+    <link rel="stylesheet" href="Donate.css">
+</head>
+<body>
+    <!--Navbar-->
+    <nav class="navbar">
+        <div class="icon">
+            <img class="PaeceImg" src="Peace.png">
+            <h1 class="logo">OnePeace</h1>
+        </div>
+        <div class="nav-links">
+            <ul class="nav-list">
+                <li class="Home"><a href="index.html">Home</a></li>
+                <li class="About"><a href="AboutUs.html">About Us</a></li>
+                <li class="Emergency"><a href="Emergency.html">Emergency</a></li>
+                <li class="Donation"><a href="Donate.html">Donation</a></li>
+                <li class="Searching">
+                    <input class="srch" type="search" name="" placeholder="Type To Text">
+                    <a href="404.html"><button class="btn">Search</button></a>
+                </li>
+            </ul>
+        </div>
+        <img src="menu-btn.png" class="menu-btn">
+    </nav>
+    <section>
+        <div class="container">
+            <form action="">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="title">Donation Form</h3>
+                        <div class="inputBox">
+                            <span>full name :</span>
+                            <input type="'text" placeholder="jack chau">
+                        </div>
+                        <div class="inputBox">
+                            <span>email :</span>
+                            <input type="'text" placeholder="jackchau@gmail.com">
+                        </div>
+                        <div class="inputBox">
+                            <span>address :</span>
+                            <input type="'text" placeholder="room - stress - locality">
+                        </div>
+                        <div class="flex">
+                            <span>city :</span>
+                            <input type="'text" placeholder="numbai">
+                        </div>
+                        <div class="inputBox">
+                            <span>state :</span>
+                            <input type="'text" placeholder="Australia">
+                        </div>
+                        <div class="inputBox">
+                            <span>zip code :</span>
+                            <input type="'text" placeholder="123 456">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h3 class="title">payment</h3>
+                        <div class="inputBox">
+                            <span>name on card :</span>
+                            <input type="'text" placeholder="Mr. Jack Chau">
+                        </div>
+                        <div class="inputBox">
+                            <span>car accepted :</span>
+                            <img src="card_img.png">
+                        </div>
+                        <div class="inputBox">
+                            <span>credit card number :</span>
+                            <input type="number" placeholder="1111-2222-3333-4444">
+                        </div>
+                        <div class="inputBox">
+                            <span>exp month :</span>
+                            <input type="text" placeholder="january">
+                        </div>
+                        <div class="flex">
+                        <div class="inputBox">
+                            <span>exp year :</span>
+                            <input type="number" placeholder="2024">
+                        </div>
+                        <div class="inputBox">
+                            <span>CVV :</span>
+                            <input type="text" placeholder="1234">
+                        </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div>
+            <p>A Poor and Worthless Developer Who Love Programming</p>
+            <p>Copyright © <a href='https://github.com/Jack-chau'>https://github.com/Jack-chau</a></p>
+        </div>
+        <img src="myGitHub.png" class="myGitHub">
+    </section>
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-list')
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
